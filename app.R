@@ -42,10 +42,7 @@ ui <- fluidPage(
       dateInput("date", label = h5("Date"), value = NULL, min = NULL, max = NULL,
                 format = "dd/mm/yyyy", startview = "month", weekstart = 0,
                 language = "en", width = NULL),
-      #numericInput("lat", label = h4("Latitude:"), value = 30.51470),
-      #numericInput("long", label = h4("Longitude:"), value = 11.242828),
       actionButton("recalc", "Find her", width='100%'),
-      
       br(""),
       textOutput("text1")
       
@@ -58,7 +55,6 @@ ui <- fluidPage(
   ),
   p(""),
   p("Data last updated on 24 August 2017. Message me to confirm I'll be around.", align="right")
-  # p(a("Message"), href="https://facebook.com/invinceyble")
 )
 
 
