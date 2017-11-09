@@ -1,7 +1,7 @@
 ## Where is Vincey?
 
 ### About the project
-I built an R Shiny app that let people know where I was when I was travelling around Europe in Summer 2017. You can view the app [here](http://whereis.vinceyau.me) and the project site [here](https://invinceyble.github.io/where-is) (incomplete).
+I built an R Shiny app that let people know where I was when I was travelling around Europe in Summer 2017. You can view the app [here](http://whereis.vinceyau.me).
 
 ### Contents
 - Data
