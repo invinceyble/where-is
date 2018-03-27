@@ -7,8 +7,11 @@ I built an R Shiny app that let people know where I was when I was travelling ar
 I used Excel and VLOOKUPs to create a .csv file with the date and location latitude and longitude. This became the data source for the app.
 
 ### How to deploy or build your own
-To set up our website, browse to where you would like to keep your code locally, then run the following in your terminal.
-```git@github.com:invinceyble/where-is.git```
+To set up the app, browse to where you would like to keep your code locally, then run the following in your terminal.
+```
+git clone git@github.com:invinceyble/where-is.git
+R -e "shiny::runApp('app.R')"
+```
 
 To customise the data to yours, copy the file ```data/data.csv``` and edit each of the columns:
 
